@@ -1,0 +1,18 @@
+PODS:
+  - DualSlideMenu (1.7.3)
+  - LINEActivity (0.2.0)
+  - TUSafariActivity (1.0.4)
+
+DEPENDENCIES:
+  - DualSlideMenu (~> 1.7)
+  - LINEActivity (~> 0.2.0)
+  - TUSafariActivity (~> 1.0)
+
+SPEC CHECKSUMS:
+  DualSlideMenu: 8e1c5255a95c3dcfc1c6dc470105278765f52093
+  LINEActivity: 3cf844b075bc7f8338ea86b41bd46acd5ec934d8
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+
+PODFILE CHECKSUM: 9cdd2ab52ae983776989e017a66327dcb13a7fc3
+
+COCOAPODS: 1.0.1

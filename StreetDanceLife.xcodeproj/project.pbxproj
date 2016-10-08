@@ -7,22 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97B71E4AD89E55A370179AB1 /* Pods_StreetDanceLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3431A124B71202F560B15C25 /* Pods_StreetDanceLife.framework */; };
+		FF3FF96D1DA8E81200AA73C5 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3FF96C1DA8E81200AA73C5 /* GoogleMobileAds.framework */; };
+		FF7A28941DA8C3AA00941D86 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7A28931DA8C3AA00941D86 /* icon.png */; };
+		FFDF6B101DA0F2D800C47EB4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B0F1DA0F2D800C47EB4 /* MainViewController.swift */; };
+		FFDF6B121DA0F2ED00C47EB4 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B111DA0F2ED00C47EB4 /* LeftMenuViewController.swift */; };
+		FFDF6B181DA1099B00C47EB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B171DA1099B00C47EB4 /* Constants.swift */; };
+		FFDF6B1B1DA117D100C47EB4 /* ic_list.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDF6B1A1DA117D100C47EB4 /* ic_list.png */; };
+		FFDF6B1D1DA118AD00C47EB4 /* ic_star.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDF6B1C1DA118AD00C47EB4 /* ic_star.png */; };
+		FFDF6B1F1DA118CD00C47EB4 /* ic_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDF6B1E1DA118CD00C47EB4 /* ic_setting.png */; };
+		FFDF6B211DA119AB00C47EB4 /* ic_profile_favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDF6B201DA119AB00C47EB4 /* ic_profile_favorite.png */; };
+		FFDF6B231DA119C300C47EB4 /* ic_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDF6B221DA119C300C47EB4 /* ic_profile.png */; };
+		FFDF6B251DA11D0600C47EB4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B241DA11D0600C47EB4 /* SettingViewController.swift */; };
+		FFDF6B271DA11D1500C47EB4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B261DA11D1500C47EB4 /* WebViewController.swift */; };
+		FFDF6B2A1DA11D5A00C47EB4 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B291DA11D5A00C47EB4 /* EntityManager.swift */; };
+		FFDF6B2C1DA11E9400C47EB4 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B2B1DA11E9400C47EB4 /* Properties.swift */; };
+		FFDF6B521DA12A2700C47EB4 /* EntryDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B511DA12A2700C47EB4 /* EntryDao.swift */; };
+		FFDF6B541DA12C4000C47EB4 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFDF6B531DA12C4000C47EB4 /* settings.plist */; };
+		FFDF6B671DA12F3D00C47EB4 /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B611DA12F3D00C47EB4 /* Entry+CoreDataClass.swift */; };
+		FFDF6B681DA12F3D00C47EB4 /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B621DA12F3D00C47EB4 /* Entry+CoreDataProperties.swift */; };
+		FFDF6B6B1DA12F3D00C47EB4 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B651DA12F3D00C47EB4 /* Category+CoreDataClass.swift */; };
+		FFDF6B6C1DA12F3D00C47EB4 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B661DA12F3D00C47EB4 /* Category+CoreDataProperties.swift */; };
+		FFDF6B6E1DA13E2200C47EB4 /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B6D1DA13E2200C47EB4 /* CommonUtil.swift */; };
+		FFDF6B701DA140B000C47EB4 /* ic_share.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDF6B6F1DA140B000C47EB4 /* ic_share.png */; };
+		FFDF6B721DA140D300C47EB4 /* ic_back.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDF6B711DA140D300C47EB4 /* ic_back.png */; };
+		FFDF6B751DA14C8300C47EB4 /* CategoryDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B741DA14C8300C47EB4 /* CategoryDao.swift */; };
+		FFDF6B771DA14D7A00C47EB4 /* DefaultCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF6B761DA14D7A00C47EB4 /* DefaultCategoryTableViewController.swift */; };
 		FFF600DD1DA0EA5F0040AF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF600DC1DA0EA5F0040AF2A /* AppDelegate.swift */; };
-		FFF600DF1DA0EA5F0040AF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF600DE1DA0EA5F0040AF2A /* ViewController.swift */; };
 		FFF600E21DA0EA5F0040AF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF600E01DA0EA5F0040AF2A /* Main.storyboard */; };
 		FFF600E51DA0EA5F0040AF2A /* StreetDanceLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFF600E31DA0EA5F0040AF2A /* StreetDanceLife.xcdatamodeld */; };
 		FFF600E71DA0EA5F0040AF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF600E61DA0EA5F0040AF2A /* Assets.xcassets */; };
-		FFF600EA1DA0EA5F0040AF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF600E81DA0EA5F0040AF2A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B7447277CB7E0C7410C379 /* Pods-StreetDanceLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetDanceLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreetDanceLife/Pods-StreetDanceLife.release.xcconfig"; sourceTree = "<group>"; };
+		3431A124B71202F560B15C25 /* Pods_StreetDanceLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetDanceLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		484F40C27FB7EC4C85D467C6 /* Pods-StreetDanceLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetDanceLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreetDanceLife/Pods-StreetDanceLife.debug.xcconfig"; sourceTree = "<group>"; };
+		FF3FF96C1DA8E81200AA73C5 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = StreetDanceLife/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		FF7A28931DA8C3AA00941D86 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FFDF6B0F1DA0F2D800C47EB4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FFDF6B111DA0F2ED00C47EB4 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		FFDF6B171DA1099B00C47EB4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FFDF6B1A1DA117D100C47EB4 /* ic_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_list.png; sourceTree = "<group>"; };
+		FFDF6B1C1DA118AD00C47EB4 /* ic_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_star.png; sourceTree = "<group>"; };
+		FFDF6B1E1DA118CD00C47EB4 /* ic_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_setting.png; sourceTree = "<group>"; };
+		FFDF6B201DA119AB00C47EB4 /* ic_profile_favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_profile_favorite.png; sourceTree = "<group>"; };
+		FFDF6B221DA119C300C47EB4 /* ic_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_profile.png; sourceTree = "<group>"; };
+		FFDF6B241DA11D0600C47EB4 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		FFDF6B261DA11D1500C47EB4 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		FFDF6B291DA11D5A00C47EB4 /* EntityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityManager.swift; sourceTree = "<group>"; };
+		FFDF6B2B1DA11E9400C47EB4 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		FFDF6B511DA12A2700C47EB4 /* EntryDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDao.swift; sourceTree = "<group>"; };
+		FFDF6B531DA12C4000C47EB4 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
+		FFDF6B611DA12F3D00C47EB4 /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FFDF6B621DA12F3D00C47EB4 /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FFDF6B651DA12F3D00C47EB4 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FFDF6B661DA12F3D00C47EB4 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FFDF6B6D1DA13E2200C47EB4 /* CommonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
+		FFDF6B6F1DA140B000C47EB4 /* ic_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_share.png; sourceTree = "<group>"; };
+		FFDF6B711DA140D300C47EB4 /* ic_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_back.png; sourceTree = "<group>"; };
+		FFDF6B741DA14C8300C47EB4 /* CategoryDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDao.swift; sourceTree = "<group>"; };
+		FFDF6B761DA14D7A00C47EB4 /* DefaultCategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCategoryTableViewController.swift; sourceTree = "<group>"; };
 		FFF600D91DA0EA5F0040AF2A /* StreetDanceLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetDanceLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF600DC1DA0EA5F0040AF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFF600DE1DA0EA5F0040AF2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FFF600E11DA0EA5F0040AF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFF600E41DA0EA5F0040AF2A /* StreetDanceLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StreetDanceLife.xcdatamodel; sourceTree = "<group>"; };
 		FFF600E61DA0EA5F0040AF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFF600E91DA0EA5F0040AF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFF600EB1DA0EA5F0040AF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -31,17 +81,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF3FF96D1DA8E81200AA73C5 /* GoogleMobileAds.framework in Frameworks */,
+				97B71E4AD89E55A370179AB1 /* Pods_StreetDanceLife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D5ECC16DD2380D66EDFB331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF3FF96C1DA8E81200AA73C5 /* GoogleMobileAds.framework */,
+				3431A124B71202F560B15C25 /* Pods_StreetDanceLife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D57C77D7FAAB1E104B3A6F74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				484F40C27FB7EC4C85D467C6 /* Pods-StreetDanceLife.debug.xcconfig */,
+				04B7447277CB7E0C7410C379 /* Pods-StreetDanceLife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFDF6B0C1DA0F26B00C47EB4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FFDF6B111DA0F2ED00C47EB4 /* LeftMenuViewController.swift */,
+				FFDF6B0F1DA0F2D800C47EB4 /* MainViewController.swift */,
+				FFDF6B241DA11D0600C47EB4 /* SettingViewController.swift */,
+				FFDF6B261DA11D1500C47EB4 /* WebViewController.swift */,
+				FFDF6B761DA14D7A00C47EB4 /* DefaultCategoryTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FFDF6B131DA1021600C47EB4 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				FFDF6B511DA12A2700C47EB4 /* EntryDao.swift */,
+				FFDF6B741DA14C8300C47EB4 /* CategoryDao.swift */,
+			);
+			name = Dao;
+			sourceTree = "<group>";
+		};
+		FFDF6B141DA1097500C47EB4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FFDF6B171DA1099B00C47EB4 /* Constants.swift */,
+				FFDF6B2B1DA11E9400C47EB4 /* Properties.swift */,
+				FFDF6B291DA11D5A00C47EB4 /* EntityManager.swift */,
+				FFDF6B6D1DA13E2200C47EB4 /* CommonUtil.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		FFDF6B191DA117C200C47EB4 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A28931DA8C3AA00941D86 /* icon.png */,
+				FFDF6B711DA140D300C47EB4 /* ic_back.png */,
+				FFDF6B6F1DA140B000C47EB4 /* ic_share.png */,
+				FFDF6B1C1DA118AD00C47EB4 /* ic_star.png */,
+				FFDF6B221DA119C300C47EB4 /* ic_profile.png */,
+				FFDF6B1E1DA118CD00C47EB4 /* ic_setting.png */,
+				FFDF6B201DA119AB00C47EB4 /* ic_profile_favorite.png */,
+				FFDF6B1A1DA117D100C47EB4 /* ic_list.png */,
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
+		FFDF6B281DA11D4900C47EB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFDF6B611DA12F3D00C47EB4 /* Entry+CoreDataClass.swift */,
+				FFDF6B621DA12F3D00C47EB4 /* Entry+CoreDataProperties.swift */,
+				FFDF6B651DA12F3D00C47EB4 /* Category+CoreDataClass.swift */,
+				FFDF6B661DA12F3D00C47EB4 /* Category+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		FFF600D01DA0EA5D0040AF2A = {
 			isa = PBXGroup;
 			children = (
 				FFF600DB1DA0EA5F0040AF2A /* StreetDanceLife */,
 				FFF600DA1DA0EA5F0040AF2A /* Products */,
+				D57C77D7FAAB1E104B3A6F74 /* Pods */,
+				7D5ECC16DD2380D66EDFB331 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +186,17 @@
 		FFF600DB1DA0EA5F0040AF2A /* StreetDanceLife */ = {
 			isa = PBXGroup;
 			children = (
+				FFDF6B281DA11D4900C47EB4 /* Model */,
+				FFDF6B191DA117C200C47EB4 /* Resouces */,
+				FFDF6B141DA1097500C47EB4 /* Util */,
+				FFDF6B131DA1021600C47EB4 /* Dao */,
+				FFDF6B0C1DA0F26B00C47EB4 /* ViewController */,
 				FFF600DC1DA0EA5F0040AF2A /* AppDelegate.swift */,
-				FFF600DE1DA0EA5F0040AF2A /* ViewController.swift */,
 				FFF600E01DA0EA5F0040AF2A /* Main.storyboard */,
 				FFF600E61DA0EA5F0040AF2A /* Assets.xcassets */,
-				FFF600E81DA0EA5F0040AF2A /* LaunchScreen.storyboard */,
 				FFF600EB1DA0EA5F0040AF2A /* Info.plist */,
 				FFF600E31DA0EA5F0040AF2A /* StreetDanceLife.xcdatamodeld */,
+				FFDF6B531DA12C4000C47EB4 /* settings.plist */,
 			);
 			path = StreetDanceLife;
 			sourceTree = "<group>";
@@ -74,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFF600EE1DA0EA5F0040AF2A /* Build configuration list for PBXNativeTarget "StreetDanceLife" */;
 			buildPhases = (
+				23E3C544958C419F549A011C /* [CP] Check Pods Manifest.lock */,
 				FFF600D51DA0EA5D0040AF2A /* Sources */,
 				FFF600D61DA0EA5D0040AF2A /* Frameworks */,
 				FFF600D71DA0EA5D0040AF2A /* Resources */,
+				F2F24A47CD947A5F86737CDE /* [CP] Embed Pods Frameworks */,
+				DFE0043E7F9D38C6E043A9C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +237,7 @@
 					FFF600D81DA0EA5D0040AF2A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = A4SNNFG58F;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,22 +265,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF600EA1DA0EA5F0040AF2A /* LaunchScreen.storyboard in Resources */,
+				FFDF6B541DA12C4000C47EB4 /* settings.plist in Resources */,
 				FFF600E71DA0EA5F0040AF2A /* Assets.xcassets in Resources */,
+				FFDF6B1B1DA117D100C47EB4 /* ic_list.png in Resources */,
+				FFDF6B231DA119C300C47EB4 /* ic_profile.png in Resources */,
+				FFDF6B701DA140B000C47EB4 /* ic_share.png in Resources */,
 				FFF600E21DA0EA5F0040AF2A /* Main.storyboard in Resources */,
+				FF7A28941DA8C3AA00941D86 /* icon.png in Resources */,
+				FFDF6B211DA119AB00C47EB4 /* ic_profile_favorite.png in Resources */,
+				FFDF6B1F1DA118CD00C47EB4 /* ic_setting.png in Resources */,
+				FFDF6B1D1DA118AD00C47EB4 /* ic_star.png in Resources */,
+				FFDF6B721DA140D300C47EB4 /* ic_back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23E3C544958C419F549A011C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE0043E7F9D38C6E043A9C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreetDanceLife/Pods-StreetDanceLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F24A47CD947A5F86737CDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreetDanceLife/Pods-StreetDanceLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFF600D51DA0EA5D0040AF2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF600DF1DA0EA5F0040AF2A /* ViewController.swift in Sources */,
+				FFDF6B2C1DA11E9400C47EB4 /* Properties.swift in Sources */,
+				FFDF6B6E1DA13E2200C47EB4 /* CommonUtil.swift in Sources */,
+				FFDF6B181DA1099B00C47EB4 /* Constants.swift in Sources */,
+				FFDF6B671DA12F3D00C47EB4 /* Entry+CoreDataClass.swift in Sources */,
+				FFDF6B101DA0F2D800C47EB4 /* MainViewController.swift in Sources */,
 				FFF600E51DA0EA5F0040AF2A /* StreetDanceLife.xcdatamodeld in Sources */,
+				FFDF6B751DA14C8300C47EB4 /* CategoryDao.swift in Sources */,
+				FFDF6B121DA0F2ED00C47EB4 /* LeftMenuViewController.swift in Sources */,
+				FFDF6B681DA12F3D00C47EB4 /* Entry+CoreDataProperties.swift in Sources */,
+				FFDF6B771DA14D7A00C47EB4 /* DefaultCategoryTableViewController.swift in Sources */,
+				FFDF6B271DA11D1500C47EB4 /* WebViewController.swift in Sources */,
 				FFF600DD1DA0EA5F0040AF2A /* AppDelegate.swift in Sources */,
+				FFDF6B2A1DA11D5A00C47EB4 /* EntityManager.swift in Sources */,
+				FFDF6B251DA11D0600C47EB4 /* SettingViewController.swift in Sources */,
+				FFDF6B521DA12A2700C47EB4 /* EntryDao.swift in Sources */,
+				FFDF6B6B1DA12F3D00C47EB4 /* Category+CoreDataClass.swift in Sources */,
+				FFDF6B6C1DA12F3D00C47EB4 /* Category+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,14 +363,6 @@
 				FFF600E11DA0EA5F0040AF2A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FFF600E81DA0EA5F0040AF2A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFF600E91DA0EA5F0040AF2A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -263,27 +463,43 @@
 		};
 		FFF600EF1DA0EA5F0040AF2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484F40C27FB7EC4C85D467C6 /* Pods-StreetDanceLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = A4SNNFG58F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StreetDanceLife",
+				);
 				INFOPLIST_FILE = StreetDanceLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiroyukiyahagi.StreetDanceLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FFF600F01DA0EA5F0040AF2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B7447277CB7E0C7410C379 /* Pods-StreetDanceLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = A4SNNFG58F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StreetDanceLife",
+				);
 				INFOPLIST_FILE = StreetDanceLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiroyukiyahagi.StreetDanceLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -306,6 +522,7 @@
 				FFF600F01DA0EA5F0040AF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

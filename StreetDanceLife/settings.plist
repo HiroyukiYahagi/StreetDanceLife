@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>admob</key>
+	<dict>
+		<key>adId</key>
+		<string>ca-app-pub-8846258096190454/6893149728</string>
+		<key>min</key>
+		<integer>3</integer>
+		<key>interval</key>
+		<integer>8</integer>
+	</dict>
+	<key>admobAdId</key>
+	<string>ca-app-pub-8846258096190454/6893149728</string>
+	<key>noImage</key>
+	<string></string>
+	<key>self</key>
+	<dict>
+		<key>appId</key>
+		<string></string>
+		<key>url</key>
+		<string>http://streetdance.life/</string>
+	</dict>
+	<key>url</key>
+	<dict>
+		<key>term</key>
+		<string>date</string>
+		<key>pagenate</key>
+		<string>ppp</string>
+		<key>catalog</key>
+		<string>cat</string>
+		<key>base</key>
+		<string>http://streetdance.life/api</string>
+	</dict>
+	<key>categories</key>
+	<dict>
+		<key>2</key>
+		<string>Break</string>
+		<key>7</key>
+		<string>HipHop</string>
+		<key>5</key>
+		<string>Lock</string>
+		<key>6</key>
+		<string>Pop</string>
+		<key>8</key>
+		<string>House</string>
+		<key>17</key>
+		<string>Waack</string>
+		<key>71</key>
+		<string>Freestyle</string>
+		<key>119</key>
+		<string>Krump</string>
+	</dict>
+</dict>
+</plist>
